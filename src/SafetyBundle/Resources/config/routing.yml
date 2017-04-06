@@ -1,0 +1,7 @@
+index_home:
+    path:  /index/
+    defaults: { _controller: SafetyBundle:Default:register }
+
+CrearPersona:
+    path: /crear=?
+    defaults: { _controller: SafetyBundle:Default:crear }

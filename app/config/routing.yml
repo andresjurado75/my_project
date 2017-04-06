@@ -1,0 +1,9 @@
+safety:
+    resource: "@SafetyBundle/Resources/config/routing.yml"
+    prefix:   /safety
+
+app:
+    resource: "@appBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
